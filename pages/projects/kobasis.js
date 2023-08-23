@@ -10,13 +10,13 @@ import Video from "../../components/projects/kobasis/Video";
 import {ErrorPopup, SuccessPopup} from "../../core/Popup";
 
 
-const sendMassage = (data) => {
-        const massage = {
+const sendmessage = (data) => {
+        const message = {
                 email: data.email,
                 name: data.name,
-                msg: data.massage
+                msg: data.message
         };
-        let text = `ittyazilim.com üzerinden bir adet iletişim formu alındı(kobasis):%0A%0A - İsim: ${massage.name}%0A - Mail: ${massage.email}%0A - Mesaj: ${massage.msg}`;
+        let text = `ittyazilim.com üzerinden bir adet iletişim formu alındı:%0A%0A - İsim: ${message.name}%0A - Konu: Kobasis%0A - Mail: ${message.email}%0A - Mesaj: ${message.msg}`;
         fetch(`https://api.telegram.org/bot6408614729:AAG-bsVOuvjOwKyZ7iNZSQR6vBVlCsZg9ys/sendMessage?chat_id=-908023957&text=${text}`)
             .then(response => response.json())
             .then(data => SuccessPopup("İşlem Başarılı."))
@@ -27,9 +27,9 @@ const onSubmit = async() => {
         const data = {
                 name: event.target.name.value,
                 email: event.target.email.value,
-                massage: event.target.massage.value,
+                message: event.target.message.value,
         }
-        sendMassage(data)
+        sendmessage(data)
 }
 const NewsDetailsPage = () => (
     <Layout pageTitle="ITT | Kobasis">
@@ -52,7 +52,7 @@ const NewsDetailsPage = () => (
                                             <input name="email" required type="text" placeholder="Email giriniz" className="reply-form__field" />
                                     </div>
                                     <div className="col-lg-12">
-                                            <textarea name="massage" required placeholder="Mesajınızı giriniz" className="reply-form__field"></textarea>
+                                            <textarea name="message" required placeholder="Mesajınızı giriniz" className="reply-form__field"></textarea>
                                             <button  className="reply-form__btn thm-btn" type="submit">
                                                     <span>Hemen Başvur</span>
                                             </button>
