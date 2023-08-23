@@ -17,11 +17,11 @@ export default class Video extends Component {
   render() {
     return (
       <section className="video-one" id="video">
-        <img
-          src="/assets/images/background/video-one-bg.png"
-          alt="Awesome Image"
-          className="video-one__bg"
-        />
+        {/*<img*/}
+        {/*  src="/assets/images/background/video-one-bg.png"*/}
+        {/*  alt="Awesome Image"*/}
+        {/*  className="video-one__bg"*/}
+        {/*/>*/}
         <div className="container wow fadeInUp" data-wow-duration="1500ms">
           <div className="video-one__box ">
             <img src="/assets/images/resources/video-1-1.jpg" alt="" />
