@@ -148,7 +148,7 @@ const NewsPage = () => (
                                                 </div>
                                             </div>
 
-                                            <Link href="/projects/kobasis">
+                                            <Link href="/projects/abasis">
                                                 <button className="thm-btn pricing-one__btn" style={inspectButton}>
                                                     <span>Detaylı İncele</span>
                                                 </button>

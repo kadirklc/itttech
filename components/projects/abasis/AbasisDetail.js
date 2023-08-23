@@ -19,23 +19,31 @@ const KobasisDetail = () => {
                                     {/*    <li><a href="#">2 Comments</a></li>*/}
                                     {/*</ul>*/}
                                     <h3 className="blog-one__title">
-                                        KOBASİS - Kolay Bağış Yönetiminin Güçlü Yardımcısı! 🌟
+                                        ABASİS: Stok Yönetiminde Yenilikçi Çözüm
                                     </h3>
-                                    <p className="blog-one__text">📊 Ayrıntılı Raporlama Ekranları: Her adımın kontrolü sizde! KOBASİS ile bağışlarınızın detaylı raporlamasını anında elde edin. Şeffaflığı siz sağlayın!
+                                    <p className="blog-one__text">Verimli stok yönetimi ve bağış süreçleri artık daha kolay ve güvenilir bir şekilde yönetiliyor! ABASİS, özellikle dernekler, kurumlar ve bağış toplama organizasyonları için geliştirilmiş bir web tabanlı uygulamadır. Güçlü özellikleri sayesinde stok takibi, dağıtım, bağış yönetimi ve raporlama süreçlerinizi optimize eder.
                                         <br/><br/>
-                                        📱 Mobil Erişim Kolaylığı: Bağışlarınız cebinizde! Kullanıcı dostu ve pratik web uygulamamız sayesinde mobil ekranınızdan bağış almak ve kontrol etmek artık parmaklarınızın ucunda.
+                                        Ayrıntılı Raporlama Ekranları: Stok hareketlerinden dağıtımlara kadar her adımı ayrıntılı raporlarla takip edebilirsiniz. Gelecekteki stok planlamalarınızı daha verimli şekilde gerçekleştirebilirsiniz.
                                         <br/><br/>
-                                        ⚡️ Hızlı ve Güvenilir Sistem: Zamanınız değerli, biz de biliyoruz! 3 adımda hızlı bağış almanın keyfini çıkarın. Pratiklik ve güveni aynı anda yaşayın.
+                                        Mobil Erişim: Tablet veya telefonlarınızla her yerden stok işlemlerinizi gerçekleştirebilirsiniz. Hızlı tepki verilmesi gereken durumlar için ideal bir çözümdür.
                                         <br/><br/>
-                                        🔗 DERBİS Entegrasyonu: Sadece bir giriş ile bağışlarınızı tamamlayın! Dernekler Bilgi Sistemi ile entegre olmamız sayesinde işleriniz hız kazanıyor, karmaşa son buluyor.
+                                        Hızlı ve Güvenilir Sistem: Stok girişleri, çıkışları, sayımları ve dağıtımları hızlı ve güvenilir bir şekilde gerçekleştirebilirsiniz. Otomatik kontroller sayesinde hatalı işlemleri önlemeniz kolaylaşır.
                                         <br/><br/>
-                                        😊 Bağışçı Memnuniyeti Odaklı: Hem sizin hem de bağışçılarınızın yüzü gülüyor. E-makbuzlarla uğraşmadan, kağıt israfı olmadan bağışlarınızı gerçekleştirin.
+                                        DERBİS ile Kolay Entegrasyon: Dernekler Bilgi Sistemi ile entegrasyon sayesinde ayni bağış işlemlerini tek bir girişle tamamlayabilirsiniz. Veri tutarlılığını sağlayarak iş süreçlerinizi hızlandırabilirsiniz.
                                         <br/><br/>
-                                        🎨 Kullanıcı Dostu Arayüz: Keyifli deneyim KOBASİS ile başlıyor! Kolay bağış alma, makbuzlara hızlı erişim ve taahhütlü bağışlarınızı yönetmek hiç bu kadar basit olmamıştı.
+                                        Bağışçı Memnuniyeti: Bağışçılarınıza kağıt makbuzlarıyla uğraşmadan elektronik makbuzlarla bağış yapma imkanı sunar. Hem sizin hem de bağışçılarınızın zamanını tasarruf eder.
                                         <br/><br/>
-                                        🔌 Kolay Altyapı Entegrasyonu: Siz karmaşaya boğulmadan, mevcut sistemlerinizle uyum içinde çalışın. KOBASİS, sizin işinizi kolaylaştırmak için burada!
+                                        Kullanıcı Dostu Arayüz: Hızlı ve kolay işlem yapma olanağı sunan arayüz sayesinde stok işlemlerini sıkıntısız bir şekilde gerçekleştirebilirsiniz.
                                         <br/><br/>
-                                        Artık bağış yönetimi karmaşık olmak zorunda değil. KOBASİS ile daha fazla bağışçıya ulaşmak, daha fazla projeye destek sağlamak için harekete geçin. Güçlü yardımcınız KOBASİS ile bağışlarınızı yönetmek hiç bu kadar kolay olmamıştı! 💪🌐
+                                        Tüm Altyapı Sistemleri ile Kolay Entegrasyon: Mevcut sistemlerinizle sorunsuz uyum sağlayarak veri transferini güvenli bir şekilde gerçekleştirebilirsiniz.
+                                        <br/><br/>
+                                        Depo Yönetimi: Depolarınızdaki bağışları kolayca kontrol edebilir, eksiklikleri hızlıca tespit edip önlem alabilirsiniz.
+                                        <br/><br/>
+                                        Stok Takip Sistemi: Ürün girişleri ve çıkışları hakkında detaylı bilgiye erişebilir, depolarınızdaki envanteri kolayca yönetebilirsiniz.
+                                        <br/><br/>
+                                        Barkod Sistemi ile Kolay Takip: Barkod sistemi sayesinde ayni bağışları hızla tanımlayabilir, takip edebilir ve doğrulayabilirsiniz.
+                                        <br/><br/>
+                                        ABASİS ile stok yönetiminizdeki karmaşıklığı ortadan kaldırın, süreçleri optimize edin ve daha etkin bir bağış yönetimi sağlayın! Detaylı bilgi ve demo talepleri için bize ulaşın.
                                     </p>
 
                                 </div>
@@ -64,8 +72,8 @@ const KobasisDetail = () => {
                                                                                   alt="Awesome Image" /></div>
                                             </div>
                                             <div className="sidebar__post-content">
-                                                <h4 className="sidebar__post-title"><Link href="/projects/abasis">Ayni Bağış Yönetim Sistemi
-                                                    İnsani yardım kuruluşları için ayni bağış yönetim sistemi.</Link></h4>
+                                                <h4 className="sidebar__post-title"><Link href="/projects/kobasis">Kolay Bağış Sistemi
+                                                    İnsani Yardım Kuruluşları için mobil - online nakdî bağış toplama sistemi.</Link></h4>
                                             </div>
                                         </div>
                                         <div className="sidebar__post__single">

@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+import Link from "next/link";
 
 export default class Blog extends Component {
     constructor(){
@@ -57,31 +58,22 @@ export default class Blog extends Component {
                             </div>
                             <div className="col-lg-6 d-flex justify-content-between footer-widget__links-wrap">
                                 <div className="footer-widget">
-                                    <h3 className="footer-widget__title">Explore</h3>
+                                    <h3 className="footer-widget__title">Bizi Keşfedin</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">How It Works</a></li>
+                                        <li><a href="#">Hakkımızda</a></li>
+                                        {/*<li><a href="#">Our Team</a></li>*/}
+                                        {/*<li><a href="#">Features</a></li>*/}
+                                        {/*<li><a href="#">Blog</a></li>*/}
+                                        {/*<li><a href="#">How It Works</a></li>*/}
                                     </ul>
                                 </div>
                                 <div className="footer-widget">
-                                    <h3 className="footer-widget__title">Services</h3>
+                                    <h3 className="footer-widget__title">Projelerimiz</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">Speed Optimization </a></li>
-                                        <li><a href="#">Marketing Analysis </a></li>
-                                        <li><a href="#">SEO and Backlinks </a></li>
-                                        <li><a href="#">Content Marketing</a></li>
-                                    </ul>
-                                </div>
-                                <div className="footer-widget">
-                                    <h3 className="footer-widget__title">Links</h3>
-                                    <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">Help </a></li>
-                                        <li><a href="#">Support </a></li>
-                                        <li><a href="#">Clients </a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><Link href="/projects/abasis">Abasis </Link></li>
+                                        <li><Link href="/projects/kobasis">Kobasis </Link></li>
+                                        <li><Link href="/projects/itt-sar">ITT-Sar </Link></li>
+                                        {/*<li><a href="#">Content Marketing</a></li>*/}
                                     </ul>
                                 </div>
                             </div>
