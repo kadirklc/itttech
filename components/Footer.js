@@ -72,7 +72,7 @@ export default class Blog extends Component {
                                     <ul className="footer-widget__links list-unstyled">
                                         <li><Link href="/projects/abasis">Abasis </Link></li>
                                         <li><Link href="/projects/kobasis">Kobasis </Link></li>
-                                        <li><Link href="/projects/itt-sar">ITT-Sar </Link></li>
+                                        <li><Link href="/projects/itt-aid">ITT-Aid </Link></li>
                                         {/*<li><a href="#">Content Marketing</a></li>*/}
                                     </ul>
                                 </div>
