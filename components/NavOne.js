@@ -51,8 +51,8 @@ export default class NavOne extends Component {
                     <div className="container clearfix">
                         <div className="logo-box clearfix">
                             <a className="navbar-brand" href="/">
-                                <img src="/assets/images/resources/logo-dark.png" className="main-logo" width="119"
-                                     alt="Awesome Image" />
+                                <img src="/assets/images/resources/ITT/LOGO-black.png" className="main-logo" width="70"
+                                     alt="ITT TEKNOLOJİ" />
                             </a>
                             <button className="menu-toggler">
                                 <span className="fa fa-bars"></span>
@@ -60,45 +60,44 @@ export default class NavOne extends Component {
                         </div>
                         <div className="main-navigation">
                             <ul className=" one-page-scroll-menu navigation-box">
-                                <li className="current scrollToLink">
-                                    <a href="/">Home</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="/">Home 01</a></li>
-                                        <li><a href="/index-2">Home 02</a></li>
-                                        <li><a href="#">Header Versions</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="/">Header 01</a></li>
-                                                <li><a href="/index-2">Header 02</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                {/*<li className="current scrollToLink">*/}
+                                {/*    <a href="/">Ana Sayfa</a>*/}
+                                {/*    <ul className="sub-menu">*/}
+                                {/*        <li><a href="/">Home 01</a></li>*/}
+                                {/*        <li><a href="/index-2">Home 02</a></li>*/}
+                                {/*        <li><a href="#">Header Versions</a>*/}
+                                {/*            <ul className="sub-menu">*/}
+                                {/*                <li><a href="/">Header 01</a></li>*/}
+                                {/*                <li><a href="/index-2">Header 02</a></li>*/}
+                                {/*            </ul>*/}
+                                {/*        </li>*/}
+                                {/*    </ul>*/}
+                                {/*</li>*/}
+                                <li className="scrollToLink">
+                                    <a href="/">Anasayfa</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#features">Features</a>
-
+                                    <a href="/projects">Projelerimiz</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#video">Video</a>
-
+                                    <a href="/about">Hakkımızda</a>
                                 </li>
-                                <li className="scrollToLink">
-                                    <a href="#pricing">Pricing</a>
-                                </li>
-                                <li className="scrollToLink">
-                                    <a href="#screenshots">App Screenshots</a>
-                                </li>
-                                <li className="scrollToLink">
-                                    <a href="#news">News</a>
-                                    <ul className="sub-menu">
-                                        <li><Link href="/news"><a>News</a></Link></li>
-                                        <li><Link href="/news-details"><a>News Details</a></Link></li>
-                                    </ul>
-                                </li>
+                                {/*<li className="scrollToLink">*/}
+                                {/*    <a href="#pricing">Pricing</a>*/}
+                                {/*</li>*/}
+                                {/*<li className="scrollToLink">*/}
+                                {/*    <a href="#screenshots">App Screenshots</a>*/}
+                                {/*</li>*/}
+                                {/*<li className="scrollToLink">*/}
+                                {/*    <a href="#news">News</a>*/}
+                                {/*    <ul className="sub-menu">*/}
+                                {/*        <li><Link href="/news"><a>News</a></Link></li>*/}
+                                {/*        <li><Link href="/news-details"><a>News Details</a></Link></li>*/}
+                                {/*    </ul>*/}
+                                {/*</li>*/}
                             </ul>
                         </div>
-                        <div className="right-side-box">
-                            <a className="thm-btn header__cta-btn" href="#"><span>Login</span></a>
-                        </div>
+
                     </div>
                 </nav>
             </header>

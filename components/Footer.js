@@ -45,15 +45,14 @@ export default class Blog extends Component {
                         <div className="row">
                             <div className="col-lg-3">
                                 <div className="footer-widget footer-widget__about">
-                                    <img src="/assets/images/resources/logo-dark.png" width="119" alt=""
+                                    <img src="/assets/images/resources/ITT/LOGO-black.png" width="79" alt="ITT TEKNOLOJİ"
                                          className="footer-widget__logo" />
-                                        <p className="footer-widget__contact"><a href="tel:888-666-0000">888 666
-                                            0000</a></p>
+                                        {/*<p className="footer-widget__contact"><a href="tel:888-666-0000">888 666*/}
+                                        {/*    0000</a></p>*/}
 
                                         <p className="footer-widget__contact"><a
-                                            href="mailto:needhelp@example.com">needhelp@example.com</a></p>
-                                            <p className="footer-widget__contact">855 road, broklyn street <br/> new york
-                                                600</p>
+                                            href="mailto:needhelp@example.com">info@ittyazilim.com</a></p>
+                                            <p className="footer-widget__contact">Bilişim Vadisi - Gebze/Kocaeli</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 d-flex justify-content-between footer-widget__links-wrap">
@@ -89,23 +88,17 @@ export default class Blog extends Component {
                             <div className="col-lg-3">
                                 <div className="footer-widget">
                                     <div className="site-footer__social">
-                                        <a href="#" className="fa fa-facebook-square"></a>
-                                        <a href="#" className="fa fa-twitter"></a>
-                                        <a href="#" className="fa fa-instagram"></a>
-                                        <a href="#" className="fa fa-pinterest-p"></a>
+                                        {/*<a href="#" className="fa fa-facebook-square"></a>*/}
+                                        <a className="fa fa-linkedin" href="https://www.linkedin.com/company/itt-teknoloji/"></a>
+                                        {/*<a href="#" className="fa fa-instagram"></a>*/}
+                                        {/*<a href="#" className="fa fa-pinterest-p"></a>*/}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="site-footer__bottom">
-                    <div className="container">
-                        <div className="inner-container text-center">
-                            <p className="site-footer__copy">&copy; copyright 2020 by <a href="#">Layerdrops.com</a></p>
-                        </div>
-                    </div>
-                </div>
+
             </footer>
 
                 <div onClick={this.scrollTop} className="scroll-to-target scroll-to-top" style={{display: this.state.scrollBtn ? 'block' : 'none'}}><i className="fa fa-angle-up"></i></div>

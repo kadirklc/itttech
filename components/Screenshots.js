@@ -69,9 +69,6 @@ const Screenshots = () => {
               <img src="/assets/images/app-shots/app-shot-1-2.jpg" alt="" />
             </div>
             <div className="item">
-              <img src="/assets/images/app-shots/app-shot-1-3.jpg" alt="" />
-            </div>
-            <div className="item">
               <img src="/assets/images/app-shots/app-shot-1-4.jpg" alt="" />
             </div>
             <div className="item">
