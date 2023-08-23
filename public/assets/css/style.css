@@ -2459,7 +2459,7 @@ a:visited {
   position: relative;
 }
 .cta-one .container:before {
-  content: '';
+  /*content: '';*/
   width: 448px;
   height: 448px;
   border-radius: 50%;

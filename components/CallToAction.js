@@ -3,11 +3,11 @@ import React from 'react';
 const CallToAction = () => {
         return (
             <section className="cta-one">
-                <img src="/assets/images/background/cta-one-bg.png" className="cta-one__bg" alt="Awesome Image" />
+                {/*<img src="/assets/images/background/cta-one-bg.png" className="cta-one__bg" alt="Awesome Image" />*/}
                 <div className="container">
-                    <img src="/assets/images/mocs/cta-moc-1-1.png" className="cta-one__moc" alt="Awesome Image" />
-                    <div className="row justify-content-lg-end">
-                        <div className="col-lg-6">
+                    {/*<img src="/assets/images/mocs/cta-moc-1-1.png" className="cta-one__moc" alt="Awesome Image" />*/}
+                    <div className="row justify-content-lg-center">
+                        <div >
                             <div className="cta-one__content">
                                 <i className="cta-one__icon dimon-icon-data1"></i>
                                 <div className="block-title text-left">
@@ -26,7 +26,7 @@ const CallToAction = () => {
                                     <li><i className="fa fa-check"></i>Kullanımı kolaylaştırmak için eğitim ve destek sağlıyoruz.
                                     </li>
                                 </ul>
-                                <a href="#" className="thm-btn"><span>Get Started</span></a>
+                                {/*<a href="#" className="thm-btn"><span>Get Started</span></a>*/}
                             </div>
                         </div>
                     </div>
