@@ -40,7 +40,7 @@ export default class Video extends Component {
               </div>
 
               <h2 className="video-one__title">
-                Watch Our <span>Tutorial</span> <br /> Videos.
+                Firmamızı Tanıtan <span><br />Videomuzu</span>  İzleyin.
               </h2>
             </div>
           </div>

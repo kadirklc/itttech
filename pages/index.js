@@ -22,17 +22,17 @@ const HomePage = () => (
     <Layout pageTitle="ITT - Teknoloji">
         <NavOne />
         <Banner />
-        <Features />
+        {/*<Features />*/}
         <Video />
         <CallToAction />
         <CallToActionTwo />
-        <Pricing />
-        <Testimonial />
-        <Brands />
-        <Counter />
-        <Screenshots />
+        {/*<Pricing />*/}
+        {/*<Testimonial />*/}
+        {/*<Brands />*/}
+        {/*<Counter />*/}
+        {/*<Screenshots />*/}
         <Faq />
-        <NewsHome />
+        {/*<NewsHome />*/}
         <Subscribe />
         <Footer />
     </Layout>

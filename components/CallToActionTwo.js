@@ -1,26 +1,25 @@
 import React from 'react';
+import Link from "next/link";
 
 const CallToActionTwo = () => {
         return (
             <section className="cta-two">
-                <div className="container">
-                    <img src="/assets/images/mocs/cta-moc-2-1.png" className="cta-two__moc" alt="Awesome Image" />
-                    <div className="row">
-                        <div className="col-lg-6">
+                <div className="container d-flex justify-content-center ">
+                    <div>
+                        <div>
                             <div className="cta-two__content">
                                 <i className="cta-two__icon dimon-icon-data"></i>
                                 <div className="block-title text-left">
-                                    <h2 className="block-title__title">Interact with <span>Customers</span> <br /> on
-                                        Single Platform.</h2>
+                                    <h2 className="block-title__title">Müşterilerle <span>Etkileşim</span> <br /> Tek
+                                        Platformda.</h2>
                                 </div>
                                 <div className="cta-two__text">
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum
-                                        perspiciatis unde.</p>
-                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
-                                        mollit lorem ipsum anim id est.</p>
+                                    <p>Günümüz iş dünyasında müşteri etkileşimleri, başarılı bir işletme için hayati önem taşımaktadır. Müşterilerin ihtiyaçlarına hızlı ve etkili bir şekilde yanıt vermek, onların memnuniyetini artırmak ve işletmenin büyümesini desteklemek için kritik bir faktördür. Bu bağlamda, "Müşterilerle Etkileşim Tek Platformda" yaklaşımı, işletmelerin müşteri iletişimini merkezi bir platformda bir araya getirerek daha verimli ve tutarlı bir deneyim sunmasını sağlar.
+
+                                    </p>
+                                    <p>Sonuç olarak, "Müşterilerle Etkileşim Tek Platformda" yaklaşımı, müşteri memnuniyetini artırmak, işletme verimliliğini artırmak ve daha kişiselleştirilmiş hizmetler sunmak isteyen işletmeler için önemli bir çözüm sunar. Bu yaklaşım, müşteri odaklı bir işletme kültürünün oluşturulmasına katkıda bulunabilir ve rekabet avantajı sağlayabilir.</p>
                                 </div>
-                                <a href="#" className="thm-btn"><span>Get Started</span></a>
+                                <Link href="/projects" ><a  className="thm-btn"><span>Projelerinizi Görmek İstiyorum.</span></a></Link>
                             </div>
                         </div>
                     </div>

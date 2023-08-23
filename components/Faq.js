@@ -6,21 +6,18 @@ const Faq = () => {
                 <img src="/assets/images/background/faq-one-bg.png" alt="Awesome Image" className="faq-one__bg" />
                 <div className="container">
                     <div className="block-title text-center">
-                        <h2 className="block-title__title">Want to Ask <span>Something</span> <br /> From Us?
+                        <h2 className="block-title__title">Sizden Gelen <span>Çok Sorulan</span> <br /> Sorular
                         </h2>
                     </div>
                     <div className="accrodion-grp faq-accrodion">
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Pre and post launch mobile app marketing pitfalls to avoid</h4>
+                                    <h4>Yazılım güvenliği konusundaki yaklaşımınız nedir?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Yazılım güvenliği bizim için önceliklidir. Sürekli güvenlik denetimleri yapar, güvenlik açıklarını en aza indirmek için çaba gösteririz.</p>
                                     </div>
                                 </div>
                             </div>
@@ -28,14 +25,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Boostup your application traffic is just a step away</h4>
+                                    <h4>Hangi büyüklükteki projeleri üstlenirsiniz?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Küçük ölçekli projelerden büyük ölçekli kurumsal projelere kadar geniş bir yelpazede projeler üstleniyoruz.</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,14 +37,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>How to update application new features</h4>
+                                    <h4>Proje teslim süreçleriniz nasıl işliyor?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Proje teslim sürecimiz, projenin karmaşıklığına bağlı olarak değişebilir. Genellikle aşamalı teslimatlar yaparız ve müşterinin geri bildirimlerine göre ayarlama yapabiliriz.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,14 +49,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>How to connect with the support to improve app experience</h4>
+                                    <h4>Ekibinizde hangi uzmanlık alanlarına sahip kişiler bulunuyor?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Ekibimizde yazılım geliştiriciler, analizciler, test uzmanları ve proje yöneticileri gibi farklı uzmanlık alanlarına sahip kişiler bulunmaktadır.</p>
                                     </div>
                                 </div>
                             </div>

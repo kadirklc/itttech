@@ -13,8 +13,8 @@ const Features = () => {
                             <div className="service-one__single text-center">
                                 <div className="service-one__inner">
                                     <i className="service-one__icon dimon-icon-laptop"></i>
-                                    <h3><a href="#">Speed <br /> Optimization</a></h3>
-                                    <p>Lorem ipsum is are <br /> many variations of <br /> pass of majority.</p>
+                                    <h3><a >Speed <br /> Optimization</a></h3>
+                                    <p className={"mx-3"}>Sitenizi/Sitelerinizi analiz edip, yüksek performanslı ve daha hızlı çalışmasını sağlarız.</p>
                                     <a href="#" className="service-one__link"><i className="dimon-icon-right-arrow"></i></a>
                                 </div>
                             </div>
@@ -23,8 +23,8 @@ const Features = () => {
                             <div className="service-one__single text-center">
                                 <div className="service-one__inner">
                                     <i className="service-one__icon dimon-icon-presentation"></i>
-                                    <h3><a href="#">Marketing <br /> Analysis</a></h3>
-                                    <p>Lorem ipsum is are <br /> many variations of <br /> pass of majority.</p>
+                                    <h3><a>Upgradeable<br /> Software</a></h3>
+                                    <p className={"mx-3"}>Kodladığımız projeleri profesyonel olarak geliştirirz ve projeniz başka bir geliştirici tarafından anlaşılabilir olmasını sağlar.</p>
                                     <a href="#" className="service-one__link"><i className="dimon-icon-right-arrow"></i></a>
                                 </div>
                             </div>
